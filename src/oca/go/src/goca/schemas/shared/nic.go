@@ -63,6 +63,11 @@ const (
 	Parent            NICKeys = "PARENT"
 	External          NICKeys = "EXTERNAL"
 	ExternalIP        NICKeys = "EXTERNAL_IP"
+	Method            NICKeys = "METHOD"
+	Gateway           NICKeys = "GATEWAY"
+	DNS               NICKeys = "DNS"
+	FloatingIP        NICKeys = "FLOATING_IP"
+	FloatingOnly      NICKeys = "FLOATING_ONLY"
 )
 
 // NewNIC returns a structure disk entity to build
